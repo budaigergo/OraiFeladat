@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Linq.Expressions;
+
 namespace OraiFeladat
 {
     public partial class Form1 : Form
@@ -42,6 +44,7 @@ namespace OraiFeladat
                 textBox_Nev.Text = "";
                 richTextBox_szoveg.Text = "";
                 dateTimePicker1.Text = "";
+                
             }
             else
             {
@@ -62,6 +65,6 @@ namespace OraiFeladat
                 richTextBox_szoveg.Text = adatok[1];
                 dateTimePicker1.Text = adatok[2];
             }
-        }
+            MessageBox.Show("asd");        }
     }
     }
