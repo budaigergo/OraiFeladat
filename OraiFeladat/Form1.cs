@@ -65,6 +65,6 @@ namespace OraiFeladat
                 richTextBox_szoveg.Text = adatok[1];
                 dateTimePicker1.Text = adatok[2];
             }
-            MessageBox.Show("asd");        }
+     }
     }
     }
